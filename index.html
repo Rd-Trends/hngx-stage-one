@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <main class="profile_card">
+        <img
+          class="profile_card_image"
+          src="/assets/avatar.jpg"
+          alt="Rd"
+          data-testid="slackDisplayImage" />
+        <p class="profile_name">
+          <strong>Slack Username: </strong>
+          <span data-testid="slackUserName">Rd</span>
+        </p>
+        <p class="profile_hngx_track">
+          <strong>HNGX track: </strong>
+          <span data-testid="myTrack">Frontend</span>
+        </p>
+        <p>
+          <strong>Day of the week</strong>
+          <span class="" id="day" data-testid="currentDayOfTheWeek"></span>
+        </p>
+        <p>
+          <strong>UTC time in milliseconds</strong>
+          <span id="time" data-testid="currentUTCTime"></span>
+        </p>
+        <a
+          href="https://github.com/rd-trends/hngx-stage-one"
+          class="profile_github_url"
+          data-testid="githubURL"
+          rel="noreffere"
+          target="_blank"
+          >View project on Github</a
+        >
+      </main>
+    </div>
+  </body>
+  <script src="/main.js"></script>
+</html>
